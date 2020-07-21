@@ -4,11 +4,11 @@
 
 org 100h
 
-MOV AX, 02
-MOV BX, 05
+MOV AX,5
+MOV BX,2
 
-ADD AX, BX;AX = AX+BX
-
+ADD AX,BX
+MOV CX,AX
 
 ret
 
